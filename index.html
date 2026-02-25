@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Guterres | Portfólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-green': '#0a3632',
+                        'brand-dark': '#2a2a2a',
+                        'brand-light': '#c5dcd8',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-brand-light text-gray-800">
+
+    <!-- Navegação -->
+    <nav class="bg-brand-green text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="font-bold text-xl tracking-wider">Brian da Silva Guterres</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#sobre" class="hover:text-gray-300 transition">Sobre</a>
+                    <a href="#experiencia" class="hover:text-gray-300 transition">Experiência</a>
+                    <a href="#projetos" class="hover:text-gray-300 transition">Projetos</a>
+                    <a href="#contato" class="hover:text-gray-300 transition">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="sobre" class="bg-brand-green text-white py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+            <img src="https://avatars.githubusercontent.com/u/205355946?v=4" alt="Foto de Brian Guterres" class="rounded-full w-48 h-48 border-4 border-brand-light shadow-lg">
+            
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 border-b-2 border-white inline-block pb-2">Brian da Silva Guterres</h1>
+                <p class="text-lg md:text-xl text-gray-200 mb-6 max-w-2xl leading-relaxed">
+                    Profissional de Suporte Técnico e estudante de ADS (2º semestre). Sou especialista em troubleshooting e resolução de problemas complexos de hardware e software. Utilizo meus conhecimentos em programação e lógica para automatizar tarefas, diagnosticar falhas com precisão e entregar soluções completas.
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="#projetos" class="bg-white text-brand-green font-semibold py-2 px-6 rounded shadow hover:bg-gray-100 transition">
+                        Ver Projetos
+                    </a>
+                    <a href="#contato" class="border border-white text-white font-semibold py-2 px-6 rounded hover:bg-white/10 transition">
+                        Falar Comigo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col md:flex-row gap-8">
+        
+        <!-- Coluna Esquerda (Habilidades e Info) -->
+        <aside class="w-full md:w-1/3 bg-brand-dark text-white rounded-xl p-8 shadow-lg h-fit">
+            
+            <div class="mb-10">
+                <h2 class="text-2xl font-bold mb-6 border-b-2 border-gray-500 pb-2">Habilidades</h2>
+                
+                <h3 class="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wider">Infra e Suporte</h3>
+                <div class="flex flex-wrap gap-2 mb-6">
+                    <span class="bg-gray-700 px-3 py-1 rounded text-sm">Troubleshooting</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded text-sm">Hardware & Software</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded text-sm">Windows / Linux</span>
+                </div>
+
+                <h3 class="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wider">Desenvolvimento</h3>
+                <div class="flex flex-wrap gap-2 mb-6">
+                    <span class="bg-gray-700 px-3 py-1 rounded text-sm">HTML5 / CSS3</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded text-sm">JavaScript</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded text-sm">Lógica de Programação</span>
+                </div>
+
+                <h3 class="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wider">Design e Mídia</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-700 px-3 py-1 rounded text-sm">Identidade Visual</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded text-sm">Photoshop</span>
+                    <span class="bg-gray-700 px-3 py-1 rounded text-sm">Edição de Vídeo/Áudio</span>
+                </div>
+            </div>
+
+            <div class="mb-10">
+                <h2 class="text-2xl font-bold mb-6 border-b-2 border-gray-500 pb-2">Idiomas</h2>
+                <ul class="space-y-3">
+                    <li class="flex justify-between items-center">
+                        <span>Português (Brasil)</span>
+                        <span class="text-sm text-gray-400">Nativo</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>Inglês</span>
+                        <span class="text-sm text-gray-400">Avançado</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold mb-6 border-b-2 border-gray-500 pb-2">Escolaridade</h2>
+                <div class="mb-4">
+                    <h3 class="font-semibold text-lg text-brand-light">Análise e Desenvolvimento de Sistemas</h3>
+                    <p class="text-sm text-gray-300">UniSenac - Campus Pelotas</p>
+                    <p class="text-sm text-gray-400">03/2025 - 12/2027 • <span class="text-brand-light font-medium">Em andamento</span></p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg">Ensino Médio</h3>
+                    <p class="text-sm text-gray-300">Colégio Gonzaga</p>
+                    <p class="text-sm text-gray-400">2019 - 2024 • <span class="text-gray-400">Formado</span></p>
+                </div>
+            </div>
+
+        </aside>
+
+        <!-- Coluna Direita (Experiência e Projetos) -->
+        <main class="w-full md:w-2/3 space-y-12">
+            
+            <!-- Experiência -->
+            <section id="experiencia" class="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                <h2 class="text-3xl font-bold text-brand-green border-b-2 border-brand-green inline-block pb-1 mb-6">Experiência Prática</h2>
+                
+                <div class="relative border-l-2 border-brand-light ml-3 pl-6 pb-8">
+                    <div class="absolute w-4 h-4 bg-brand-green rounded-full -left-[9px] top-1 border-4 border-white"></div>
+                    <h3 class="text-xl font-bold text-gray-800">Técnico de Suporte de TI</h3>
+                    <p class="text-brand-green font-medium mb-2">Autônomo | Janeiro 2023 - Atual</p>
+                    <ul class="list-disc ml-5 space-y-2 text-gray-600">
+                        <li>Atuação na manutenção preventiva e corretiva de hardware e montagem de setups para clientes particulares.</li>
+                        <li>Formatação, instalação e otimização de sistemas operacionais (Windows e Linux).</li>
+                        <li>Diagnóstico e resolução de problemas de hardware e software (troubleshooting).</li>
+                    </ul>
+                </div>
+
+                <div class="relative border-l-2 border-brand-light ml-3 pl-6 pb-2">
+                    <div class="absolute w-4 h-4 bg-gray-300 rounded-full -left-[9px] top-1 border-4 border-white"></div>
+                    <h3 class="text-xl font-bold text-gray-800">Designer Gráfico e Editor de Vídeo</h3>
+                    <p class="text-brand-green font-medium mb-2">Freelancer | Setembro 2021 - Atual</p>
+                    <ul class="list-disc ml-5 space-y-2 text-gray-600">
+                        <li>Criação de identidades visuais (logos e ícones) e materiais gráficos sob demanda.</li>
+                        <li>Edição e tratamento de áudio e vídeo para projetos criativos e mídias sociais.</li>
+                        <li>Desenvolvimento de olhar crítico para design, habilidade que hoje utilizo para criar interfaces (UI/UX) no Desenvolvimento Web.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Projetos -->
+            <section id="projetos" class="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                <h2 class="text-3xl font-bold text-brand-green border-b-2 border-brand-green inline-block pb-1 mb-6">Projetos</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Projeto 1 -->
+                    <div class="border border-gray-200 rounded-lg p-5 hover:shadow-md transition bg-gray-50 flex flex-col justify-between">
+                        <div>
+                            <div class="text-brand-green text-2xl mb-3"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <h3 class="text-lg font-bold mb-2">Sistema de Gerenciamento de Alunos</h3>
+                            <p class="text-sm text-gray-600 mb-4">Desenvolvimento de uma aplicação utilizando JavaScript, HTML e CSS. Implementação de persistência de dados via LocalStorage para cadastro e consulta eficiente.</p>
+                        </div>
+                        <div>
+                            <div class="flex gap-2 mb-4">
+                                <span class="text-xs bg-brand-light text-brand-green px-2 py-1 rounded font-medium">JavaScript</span>
+                                <span class="text-xs bg-brand-light text-brand-green px-2 py-1 rounded font-medium">HTML/CSS</span>
+                            </div>
+                            <a href="https://brnsg.github.io/gerenciadordealunos/" target="_blank" class="text-sm text-brand-green hover:underline font-semibold flex items-center gap-1">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Acessar Projeto
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2 -->
+                    <div class="border border-gray-200 rounded-lg p-5 hover:shadow-md transition bg-gray-50 flex flex-col justify-between">
+                        <div>
+                            <div class="text-brand-green text-2xl mb-3"><i class="fa-solid fa-gamepad"></i></div>
+                            <h3 class="text-lg font-bold mb-2">Projeto de html estilo jogo de simulação</h3>
+                            <p class="text-sm text-gray-600 mb-4">Simulador interativo desenvolvido com foco em mecânicas web, manipulação de interface e lógica aplicada diretamente no navegador.</p>
+                        </div>
+                        <div>
+                            <div class="flex gap-2 mb-4">
+                                <span class="text-xs bg-brand-light text-brand-green px-2 py-1 rounded font-medium">HTML/CSS</span>
+                                <span class="text-xs bg-brand-light text-brand-green px-2 py-1 rounded font-medium">JavaScript</span>
+                            </div>
+                            <a href="https://brnsg.github.io/simuladorjogodeteste/" target="_blank" class="text-sm text-brand-green hover:underline font-semibold flex items-center gap-1">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Acessar Projeto
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 -->
+                    <div class="border border-gray-200 rounded-lg p-5 hover:shadow-md transition bg-gray-50 flex flex-col justify-between">
+                        <div>
+                            <div class="text-brand-green text-2xl mb-3"><i class="fa-solid fa-code"></i></div>
+                            <h3 class="text-lg font-bold mb-2">Automação e Scripts Customizados</h3>
+                            <p class="text-sm text-gray-600 mb-4">Criação de scripts focados na automação de tarefas rotineiras e modificações específicas em aplicações e jogos.</p>
+                        </div>
+                        <div>
+                            <div class="flex gap-2 mb-4">
+                                <span class="text-xs bg-brand-light text-brand-green px-2 py-1 rounded font-medium">Lógica</span>
+                                <span class="text-xs bg-brand-light text-brand-green px-2 py-1 rounded font-medium">Scripting</span>
+                            </div>
+                            <!-- Link de repositório removido conforme solicitado -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Rodapé / Contato -->
+    <footer id="contato" class="bg-brand-dark text-white py-12 border-t border-gray-700 mt-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-bold mb-8">Vamos trabalhar juntos?</h2>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
+                <a href="mailto:briansguterres@hotmail.com" class="flex items-center gap-3 hover:text-brand-light transition">
+                    <i class="fa-solid fa-envelope text-xl"></i>
+                    <span>briansguterres@hotmail.com</span>
+                </a>
+                <a href="https://wa.me/5553991865360" target="_blank" class="flex items-center gap-3 hover:text-brand-light transition">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>+55 53 99186-5360</span>
+                </a>
+                <div class="flex items-center gap-3 text-gray-300">
+                    <i class="fa-solid fa-location-dot text-xl"></i>
+                    <span>Pelotas, RS</span>
+                </div>
+            </div>
+
+            <!-- Redes Sociais -->
+            <div class="flex justify-center gap-6 mt-6 pt-6 border-t border-gray-700">
+                <a href="https://www.linkedin.com/in/brian-da-silva-guterres-99881337a/" target="_blank" class="text-gray-400 hover:text-white transition text-3xl" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            
+            <p class="text-sm text-gray-500 mt-8">© 2026 Brian Guterres. Desenvolvido para a web.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
